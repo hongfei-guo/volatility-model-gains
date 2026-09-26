@@ -1,0 +1,6 @@
+"market","main_calendar_n","main_common_n","holdout_calendar_n","holdout_common_n","unavailable_forecasts"
+"DAX",1523,1523,507,507,"None"
+"FTSE",1513,1513,507,507,"None"
+"NIKKEI",1464,1464,488,425,"Holdout: ARSV 2024-04, 2024-10, 2025-08 (63 days)"
+"SHCOMP",1455,1414,485,443,"Main: STAR-SV 2018-09, 2023-11 (41 days); Holdout: APARCH 2024-04 (20 days); Holdout: STAR-SV 2024-01 (22 days)"
+"SP500",1509,1509,502,502,"None"

@@ -1,0 +1,4 @@
+"market","confidence","n_full","n_restricted","n_excluded","winner_full","winner_restricted","winner_unchanged","complete_rank_order_full","complete_rank_order_restricted","complete_rank_order_unchanged","models_with_rank_change","max_absolute_mean_shift"
+"SHCOMP",0.95,1455,1414,41,"GJR_R","GJR_R",TRUE,"GJR_R>AARSV>GARCH>GJR_U>APARCH>ARSV>TSV_RT","GJR_R>AARSV>APARCH>GJR_U>GARCH>TSV_RT>ARSV",FALSE,4,0.0159364671931806
+"SHCOMP",0.975,1455,1414,41,"GJR_R","GJR_R",TRUE,"GJR_R>GARCH>GJR_U>AARSV>APARCH>ARSV>TSV_RT","GJR_R>GARCH>GJR_U>AARSV>APARCH>TSV_RT>ARSV",FALSE,2,0.0152582703561037
+"SHCOMP",0.99,1455,1414,41,"GJR_R","GJR_R",TRUE,"GJR_R>GARCH>GJR_U>APARCH>AARSV>TSV_RT>ARSV","GJR_R>GARCH>GJR_U>APARCH>AARSV>TSV_RT>ARSV",TRUE,0,0.0148864230311105

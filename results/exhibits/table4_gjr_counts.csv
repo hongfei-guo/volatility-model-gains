@@ -1,0 +1,3 @@
+"period","period_label","fz0_cells","fz0_gjr_r_better","fz0_gjr_u_better","fz0_ties","density_markets","lpds_gjr_r_better","lpds_gjr_u_better","lpds_ties","crps_gjr_r_better","crps_gjr_u_better","crps_ties"
+"main_oos","Main-OOS, 2018--2023",15,11,4,0,5,1,4,0,1,4,0
+"holdout","Holdout, 2024--2025",15,9,6,0,5,0,5,0,0,5,0

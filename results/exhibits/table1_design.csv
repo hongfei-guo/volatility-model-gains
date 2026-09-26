@@ -1,0 +1,6 @@
+"item","design"
+"Markets and returns","DAX, FTSE, NIKKEI, SHCOMP, and SP500; 100 times daily log close-to-close returns on local trading calendars"
+"Evaluation periods","Main OOS: 2018-01-01 to 2023-12-31; holdout: 2024-01-01 to 2025-12-31"
+"Forecast timing","Most recent 2,000 observations; monthly structural refits; daily state updates and one-day-ahead forecasts"
+"Common estimation target","Stationary AR(1) conditional mean; unit-variance standardized Student-t innovations; data cloning K=5 with plug-in structural estimates"
+"Evaluation and samples","Main OOS: 95% and 97.5% comparison levels; holdout: two primary 97.5% tests; common and model-specific evaluation samples; no imputation"

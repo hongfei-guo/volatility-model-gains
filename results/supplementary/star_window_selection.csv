@@ -1,0 +1,6 @@
+"market","validation_start","validation_end","validation_n","selected_trailing_window","selection_rule"
+"DAX","2017-01-02","2017-12-29",252,5,"highest mean validation LPDS among estimable candidates; smaller window breaks exact ties"
+"FTSE","2017-01-03","2017-12-29",252,10,"highest mean validation LPDS among estimable candidates; smaller window breaks exact ties"
+"NIKKEI","2016-12-26","2017-12-29",252,10,"highest mean validation LPDS among estimable candidates; smaller window breaks exact ties"
+"SHCOMP","2016-12-21","2017-12-29",252,10,"highest mean validation LPDS among estimable candidates; smaller window breaks exact ties"
+"SP500","2016-12-30","2017-12-29",252,10,"highest mean validation LPDS among estimable candidates; smaller window breaks exact ties"
