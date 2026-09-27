@@ -1,6 +1,15 @@
-# Forecast-evaluation replication materials for “Testing Whether Volatility-Model Gains Persist: A Prespecified Holdout in Tail-Risk Forecasting”
+# Testing Whether Volatility Model Gains Persist
+
+*Testing Whether Volatility Model Gains Persist: A Prespecified Holdout in Tail Risk Forecasting*
 
 Hongfei Guo, J. Miguel Marín, and Helena Veiga
+
+Do forecast advantages survive in a later sample? This study compares eight
+volatility models across five equity indices, separating the discovery of
+forecast gains from their evaluation in a prespecified subsequent holdout.
+It assesses joint VaR–ES accuracy, calibration, predictive density and forecast
+availability. This repository contains the R evaluation code, Stan model
+specifications and saved forecasts used to reproduce the reported comparisons.
 
 [Research overview](OVERVIEW.md) · [Working paper](https://hdl.handle.net/10016/50798) · [Archived replication materials](https://doi.org/10.5281/zenodo.22657288)
 
@@ -56,7 +65,7 @@ revisions can prevent bitwise reproduction.
 ## Software
 
 The R dependency environment is recorded in `environment/renv.lock`. To
-restore it, install `renv` and run the following command from the archive root:
+restore it, install `renv` and run the following command from the repository root:
 
 ```text
 Rscript -e 'renv::restore(lockfile = "environment/renv.lock")'
@@ -68,7 +77,7 @@ dependencies are not required for the default forecast-evaluation reproduction.
 ## Reproduction
 
 Obtain the five source files described in `data/README.md` and place them under
-`data/source/`. Then run the following commands from the archive root:
+`data/source/`. Then run the following commands from the repository root:
 
 ```text
 Rscript code/build_returns.R
@@ -127,8 +136,7 @@ and prior-sensitivity file records the reported changes, diagnostic values,
 and assessment criteria. Its validation step checks those stored quantities;
 it does not reconstruct them from alternative fits or forecast panels. The
 K-specific joint draws and complete underlying comparison inputs are not
-included. The package makes no claim to reproduce the scaled-variance
-trajectory diagnostic that the paper does not report.
+included.
 
 ## Random-number settings
 
