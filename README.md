@@ -15,7 +15,7 @@ specifications and saved forecasts used to reproduce the reported comparisons.
 
 ## Scope
 
-This archive reproduces the forecast-evaluation results, main-paper tables,
+The code reproduces the forecast-evaluation results, main-paper tables,
 Figures 1 and 2, and evaluation-based online-appendix results from the supplied daily
 forecast panels. It reconstructs the common and model-specific evaluation
 samples; recomputes FZ0, paired HAC inference, Holm adjustment, calibration
@@ -30,7 +30,7 @@ specifications. The supplied monthly parameter estimates, diagnostics,
 forecast seeds, and forecast panels provide the numerical inputs needed to
 inspect the reported analysis.
 
-## Archive contents
+## Repository contents
 
 - `data/`: source-data documentation and the required user-supplied file
   structure. Third-party index observations are not redistributed.
